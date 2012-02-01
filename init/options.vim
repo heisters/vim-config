@@ -1,6 +1,10 @@
-set guifont=Inconsolata:h24     " Huge and not always there ...
-set guifont=Monaco:h18
+set guifont=Inconsolata:h18     " Huge and not always there ...
+"set guifont=Monaco:h18
 set guioptions-=T               " Remove GUI toolbar
+set guioptions-=R               " Never show the scrollbars
+set guioptions-=r
+set guioptions-=L
+set guioptions-=l
 set visualbell                  " Suppress audio/visual error bell
 set notimeout                   " No command timeout
 set showcmd                     " Show typed command prefixes while waiting for operator
